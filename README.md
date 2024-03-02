@@ -1,47 +1,47 @@
 Project Name : **E-Commerce Platform Deployment with Git, Linux, and AWS**
 
 Introduction
-    1. Git Version Control Setup 
-        ◦ 1.1. Git Repository Initialization 
-            ▪ Proper creation of a new directory and initialization of a Git repository. 
+1. Git Version Control Setup 
+◦ 1.1. Git Repository Initialization 
+▪ Proper creation of a new directory and initialization of a Git repository. 
 
-        ◦ 1.2. Local Website Development  
-            ▪ Creation of HTML files for homepage, about us, and contact pages. 
-            ▪ Addition of basic content to each page. 
+◦ 1.2. Local Website Development  
+▪ Creation of HTML files for homepage, about us, and contact pages. 
+▪ Addition of basic content to each page. 
 
-        ◦ 1.3. Git Commit 
-            ▪ Successful addition and commit of changes. 
-            ▪ Proper configuration of global Git settings. 
+◦ 1.3. Git Commit 
+▪ Successful addition and commit of changes. 
+▪ Proper configuration of global Git settings. 
 
-    2. Linux Development Environment 
-        ◦ 2.1. Development Branch 
-            ▪ Creation of a development branch. 
-            ▪ Proper branching and switching to the development branch. 
+2. Linux Development Environment 
+◦ 2.1. Development Branch 
+▪ Creation of a development branch. 
+▪ Proper branching and switching to the development branch. 
 
-        ◦ 2.2. Continued Development 
-            ▪ Implementation of additional features or improvements on the development branch. 
+◦ 2.2. Continued Development 
+▪ Implementation of additional features or improvements on the development branch. 
 
-        ◦ 2.3. Branch Merge  
-            ▪ Successful merging of changes from the development branch to the main branch. 
+◦ 2.3. Branch Merge  
+▪ Successful merging of changes from the development branch to the main branch. 
 
-    3. AWS Deployment 
-        ◦ 3.1. EC2 Instance Setup 
-            ▪ Successful log-in to the AWS Management Console. 
-            ▪ Proper launch of an EC2 instance with the specified Amazon Linux 2023 AMI. 
+3. AWS Deployment 
+◦ 3.1. EC2 Instance Setup 
+▪ Successful log-in to the AWS Management Console. 
+▪ Proper launch of an EC2 instance with the specified Amazon Linux 2023 AMI. 
 
-        ◦ 3.2. File Transfer to EC2 
-            ▪ Successful transfer of website files to the EC2 instance using SCP or SFTP. 
+◦ 3.2. File Transfer to EC2 
+▪ Successful transfer of website files to the EC2 instance using SCP or SFTP. 
 
-        ◦ 3.3. Web Server Installation  
-            ▪ Proper installation of a web server (e.g., Apache) on the EC2 instance. 
+◦ 3.3. Web Server Installation  
+▪ Proper installation of a web server (e.g., Apache) on the EC2 instance. 
 
-        ◦ 3.4. Server Configuration  
-            ▪ Successful configuration of the web server to serve the website from transferred files. 
+◦ 3.4. Server Configuration  
+▪ Successful configuration of the web server to serve the website from transferred files. 
 
-        ◦ 3.5. Website Access 
-            ▪ Successful access to the deployed website from a web browser using the EC2 instance's public IP. 
+◦ 3.5. Website Access 
+▪ Successful access to the deployed website from a web browser using the EC2 instance's public IP. 
 
-    4. Challenges faced and their solutions. 
+4. Challenges faced and their solutions. 
 
 
 Body 
@@ -203,5 +203,6 @@ Stage Your Changes: After making your changes, add them to the staging area in G
 
 The challenge i faced was when i tried to push changes to GitHub, I encounterd this error "error: failed to push some refs to [remote repo] error."
 Solution: 
+
 			git pull origin master
 	                git push --set-upstream origin master
